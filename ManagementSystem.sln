@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem", "ManagementSystem.csproj", "{2EF78AEF-B47E-4B7F-8BFC-EC2DED86680A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem", "ManagementSystem.csproj", "{2EF78AEF-B47E-4B7F-8BFC-EC2DED86680A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Contracts", "..\ManagementSystem.Contracts\ManagementSystem.Contracts.csproj", "{6352CA5F-1877-49BA-8DE2-9109A7F214E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem.Contracts", "..\ManagementSystem.Contracts\ManagementSystem.Contracts.csproj", "{6352CA5F-1877-49BA-8DE2-9109A7F214E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.LoggerService", "..\ManagementSystem.LoggerService\ManagementSystem.LoggerService.csproj", "{E95415F4-3D97-48AF-A290-02FBAB91159C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem.LoggerService", "..\ManagementSystem.LoggerService\ManagementSystem.LoggerService.csproj", "{E95415F4-3D97-48AF-A290-02FBAB91159C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Entities", "..\ManagementSystem.Entities\ManagementSystem.Entities.csproj", "{AE90A86B-A22E-4191-A221-AEDC09BC6535}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem.Entities", "..\ManagementSystem.Entities\ManagementSystem.Entities.csproj", "{AE90A86B-A22E-4191-A221-AEDC09BC6535}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Repository", "..\ManagementSystem.Repository\ManagementSystem.Repository.csproj", "{A8DB270F-1A1D-4FE2-A51D-B666C27033E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem.Repository", "..\ManagementSystem.Repository\ManagementSystem.Repository.csproj", "{A8DB270F-1A1D-4FE2-A51D-B666C27033E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Service.Contracts", "..\ManagementSystem.Service.Contracts\ManagementSystem.Service.Contracts.csproj", "{3B89138F-D36D-41AA-95F9-97C529C9F5FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem.Service.Contracts", "..\ManagementSystem.Service.Contracts\ManagementSystem.Service.Contracts.csproj", "{3B89138F-D36D-41AA-95F9-97C529C9F5FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Service", "..\ManagementSystem.Service\ManagementSystem.Service.csproj", "{C16ED86D-B1DD-4FD1-8E82-17BFE6A77FFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManagementSystem.Service", "..\ManagementSystem.Service\ManagementSystem.Service.csproj", "{C16ED86D-B1DD-4FD1-8E82-17BFE6A77FFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Presentation", "..\ManagementSystem.Presentation\ManagementSystem.Presentation.csproj", "{05FFDC76-88AC-490C-B15C-7E3D566E46B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagementSystem.Shared", "..\ManagementSystem.Shared\ManagementSystem.Shared.csproj", "{150B7176-305C-4C37-8C78-C067FA222CB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{C16ED86D-B1DD-4FD1-8E82-17BFE6A77FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C16ED86D-B1DD-4FD1-8E82-17BFE6A77FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C16ED86D-B1DD-4FD1-8E82-17BFE6A77FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FFDC76-88AC-490C-B15C-7E3D566E46B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FFDC76-88AC-490C-B15C-7E3D566E46B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FFDC76-88AC-490C-B15C-7E3D566E46B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FFDC76-88AC-490C-B15C-7E3D566E46B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{150B7176-305C-4C37-8C78-C067FA222CB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{150B7176-305C-4C37-8C78-C067FA222CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{150B7176-305C-4C37-8C78-C067FA222CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{150B7176-305C-4C37-8C78-C067FA222CB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
